@@ -25,7 +25,7 @@
                 html5Qrcode.stop();
             }
         }
-        const config = {fps:10, qrbox:{width:250, height:250}}
+        const config = {fps:10, qrbox:{width:250, height:250},preferredFacingMode: 'environment'}
         html5Qrcode.start({facingMode:"environment"}, config,qrCodeSuccessCallback );
     </script>
     
